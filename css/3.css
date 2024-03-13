@@ -238,21 +238,21 @@
 .link_area .link_content .con_1{ display:block;}
 
 .link_area .link_con_list{ display:block; width: 100%; height: 100%;}
-.link_area .link_con_list li{ display:block; width: 50%; float: left; height: 50%; background: url(../img/index_link_1_1.jpg) no-repeat center center; background-size: cover; overflow: hidden;}
+.link_area .link_con_list li{ display:block; width: 50%; float: left; height: 50%; background: url(../img/旅游建设.jpg) no-repeat center center; background-size: cover; overflow: hidden;}
 .link_area .link_con_list li a{ display:block; width: 100%; height: 100%; position: relative;}
-.link_area .con_1 .link_con_list li.item_1{ background-image: url(../img/index_link_1_1.jpg);}
-.link_area .con_1 .link_con_list li.item_2{ background-image: url(../img/index_link_1_2.jpg); }
-.link_area .con_1 .link_con_list li.item_3{ background-image: url(../img/index_link_1_3.jpg); }
-.link_area .con_1 .link_con_list li.item_4{ background-image: url(../img/index_link_1_4.jpg); }
+.link_area .con_1 .link_con_list li.item_1{ background-image: url(../img/旅游建设.jpg);}
+.link_area .con_1 .link_con_list li.item_2{ background-image: url(../img/乡村宣传.jpg); }
+.link_area .con_1 .link_con_list li.item_3{ background-image: url(../img/保护并推广.png);width: 100%; }
+/* .link_area .con_1 .link_con_list li.item_4{ background-image: url(../img/index_link_1_4.jpg); } */
 
-.link_area .con_2 .link_con_list li.item_1{ background-image: url(../img/index_link_2_1.jpg); }
-.link_area .con_2 .link_con_list li.item_2{ background-image: url(../img/index_link_2_2.jpg); }
-.link_area .con_2 .link_con_list li.item_3{ background-image: url(../img/index_link_2_3.jpg); width: 100%;}
+.link_area .con_2 .link_con_list li.item_1{ background-image: url(../img/乡村教育.png); }
+.link_area .con_2 .link_con_list li.item_2{ background-image: url(../img/给予陪伴.jpg); }
+.link_area .con_2 .link_con_list li.item_3{ background-image: url(../img/“面对面”交易.jpg); width: 100%;}
 
-.link_area .con_3 .link_con_list li.item_1{ background-image: url(../img/index_link_3_1.jpg); }
-.link_area .con_3 .link_con_list li.item_2{ background-image: url(../img/index_link_3_2.jpg); }
-.link_area .con_3 .link_con_list li.item_3{ background-image: url(../img/index_link_3_3.jpg); }
-.link_area .con_3 .link_con_list li.item_4{ background-image: url(../img/index_link_3_4.jpg); }
+.link_area .con_3 .link_con_list li.item_1{ background-image: url(../img/商务合作.png); }
+.link_area .con_3 .link_con_list li.item_2{ background-image: url(../img/政府合作.png); }
+.link_area .con_3 .link_con_list li.item_3{ background-image: url(../img/成员纳新\ 2.png); width: 100%;}
+/* .link_area .con_3 .link_con_list li.item_4{ background-image: url(../img/成员纳新\ 2.jpg); } */
 
 .link_area .link_con_list .script{ display:block; width: 100%; height: 50%; position: absolute; left: 0px; bottom: 0px; background:-webkit-linear-gradient(bottom,rgba(0,0,0,0.4),rgba(0,0,0,0)); }
 .link_area .link_con_list .script .tit{ display:block; margin-left:43px; margin-top: 119px; font-size: 24px; color: #fff; transition: margin-top 0.3s ease-out;font-family: 'TencentSansw7';}
@@ -287,13 +287,13 @@
 .resp_area .slide_list li .shadow_bg{ display:block; width:100%; height:30%; position: absolute; left: 0px; bottom: 0px; background: -webkit-linear-gradient(bottom,rgba(0,0,0,0.15),rgba(0,0,0,0)); pointer-events: none;}
 .resp_area .slide_list li .img{ display:block; width:627px; height:620px; position: absolute; left: 0px; top: 0px;}
 .resp_area .slide_list li .img1{
-	background: url(../img/index_resp_bg1.jpg) no-repeat center center;background-size: cover;
+	background: url(../img/99公益日.jpg) no-repeat center center;background-size: cover;
 }
 .resp_area .slide_list li .img2{
-	background: url(../img/index_resp_bg3.jpg) no-repeat center center;background-size: cover;
+	background: url(../img/城长保护项目.jpg) no-repeat center center;background-size: cover;
 }
 .resp_area .slide_list li .img3{
-	background: url(../img/index_resp_bg1.jpg) no-repeat center center;background-size: cover;
+	background: url(../img/腾讯为村.jpg) no-repeat center center;background-size: cover;
 }
 .resp_area .slide_list li .tit{ display:block; width: 500px;font-size: 24px; position: absolute; left: 53px; bottom: 107px;z-index: 1;font-family: 'TencentSansw7';}
 .resp_area .slide_list li .txt{ display:block; width: 500px; font-size: 16px; position: absolute; left: 52px; bottom: 41px; line-height: 29px;z-index: 1;font-family: 'TencentSansw3';}
@@ -339,13 +339,13 @@
 }
 
 .develop_area .slide_list .li1{
-	background: url(../img/index_develop_bg1.jpg) no-repeat top;background-size: cover;
+	background: url(../img/连接人才与发展.jpg) no-repeat top;background-size: cover;
 }
 .develop_area .slide_list .li2{
-	background: url(../img/20200209011452.png) no-repeat top;background-size: cover;
+	background: url(../img/连接人才与发展2.jpg) no-repeat top;background-size: cover;
 }
 .develop_area .slide_list .li3{
-	background: url(../img/index_develop_bg3.jpg) no-repeat top;background-size: cover;
+	background: url(../img/连接人才与发展3.jpg) no-repeat top;background-size: cover;
 }
 
 @keyframes offset {
