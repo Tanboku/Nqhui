@@ -209,15 +209,15 @@ h6 {
   -o-transition: all 0.2s linear;
 }
 .head_con{ display:block; width:1200px; height: 72px;  margin: 0px auto; position: relative; z-index: 2; }
-.head_con .logo{ display:block; height: 22px; width: 168px; position: absolute; left: 0px; top: 25px;}
-.head_con .logo h1{ display:block; height: 22px; width: 168px; 
-  background: url(../img/Nongqy.png) no-repeat 0 0;
+.head_con .logo{ display:block; height: 30px; width: 168px; position: absolute; left: 0px; top: 25px;}
+.head_con .logo h1{ display:block; height: 30px; width: 168px; 
+  background: url(../img/白色字的抠图.png) no-repeat 0 0;
    text-indent: -9999px; overflow: hidden;background-size: 100% 100%;}
 
 
 /*èœå•*/
-.menu_list{ display: block; height:72px; position: absolute; right: 300px; top: 0px; cursor: pointer; opacity: 1; transition:opacity 0.3s linear;transform: translate(0px,0);}
-.menu_list .menu_item{ display: inline-block; height:72px; float: left; margin-left:142px; position: relative;}
+.menu_list{ display: block; height:72px; position: absolute; right: 200px; top: 0px; cursor: pointer; opacity: 1; transition:opacity 0.3s linear;transform: translate(0px,0);}
+.menu_list .menu_item{ display: inline-block; height:72px; float: left; margin-left:102px; position: relative;}
 .en-us .menu_list .menu_item{
   margin-left: 36px;
 }
@@ -261,7 +261,7 @@ h6 {
   position: fixed;
   top: -72px;
 } */
-.submenu_show .logo h1,.head_white .logo h1{ background-image: url(../img/Nongqyy.png);background-size: 100% 100%;}
+.submenu_show .logo h1,.head_white .logo h1{ background-image: url(../img/绿色字的抠图.png);background-size: 100% 100%;}
 .submenu_show .menu_list .menu_item .txt,.head_white .menu_list .menu_item .txt{ color: #2b2e2e;}
 .submenu_show.search_area_show .search_area,.head_white.search_area_show .search_area{ width: 676px; background: #f6f6f6; }
 .submenu_show.search_area_show .search_area .search_icon,.head_white.search_area_show .search_area .search_icon{ opacity: 0.3; }
@@ -323,9 +323,11 @@ h6 {
 .focus_us .focus_list li{ display:inline-block; float: left; margin-right: 28px;}
 .focus_us .focus_list li a{ display:block; height: 28px; width: 28px;}
 .focus_us .focus_list li a .icon{ display:block; height: 28px; width: 28px; background:url(../img/icon_wechat.png) no-repeat center; background-size: 100% 100%;position: relative; transition: background 0.2s ease-in-out;}
-.focus_us .focus_list li a .i_weibo{background:url(../img/index/icon_weibo.png) no-repeat center; background-size: 100% 100%;}
-.focus_us .focus_list li a .i_twitter{background:url(../img/index/icon_twitter.png) no-repeat center; background-size: 100% 100%;}
-.focus_us .focus_list li a .i_in{background:url(../img/index/icon_in.png) no-repeat center; background-size: 100% 100%;}
+.focus_us .focus_list li a .i_weibo{background:url(../img/i_douyin.png) no-repeat center; background-size: 100% 100%;}
+.focus_us .focus_list li a .i_twitter{background:url(../img/icon_kuaishou.png) no-repeat center; background-size: 100% 100%;}
+.focus_us .focus_list li a .i_in{background:url(../img/icon_xiaohongshu.png) no-repeat center; background-size: 100% 100%;}
+.focus_us .focus_list li a .i_bili{background:url(../img/icon_bilibili.png) no-repeat center; background-size: 100% 100%;}
+
 
 .focus_us .focus_list li a:hover .icon{
   background:url(../img/index/icon_wechat_hover.png) no-repeat center; background-size: 100% 100%;
@@ -352,6 +354,18 @@ h6 {
   transition: opacity 0.2s linear;
   pointer-events:none;
 }
+/* .weibo-code {
+  width: 176px;
+  position: absolute;
+  left: 0;
+  top: -186px;
+  z-index: 2;
+  display: block;
+  display:none\9;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  pointer-events:none;
+} */
 .focus_us .focus_list li a:hover .wechat-code{
   display: block;
   opacity: 1;
